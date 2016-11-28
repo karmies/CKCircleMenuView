@@ -54,6 +54,7 @@ typedef enum {
 
 @interface CKCircleMenuView : UIView
 
+@property (nonatomic) NSMutableArray* buttons;
 @property (weak, nonatomic) id<CKCircleMenuDelegate> delegate;
 
 /**

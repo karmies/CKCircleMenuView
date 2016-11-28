@@ -9,7 +9,6 @@
 
 @interface CKCircleMenuView()
 
-@property (nonatomic) NSMutableArray* buttons;
 @property (weak, nonatomic) UIGestureRecognizer* recognizer;
 @property (nonatomic) int hoverTag;
 
