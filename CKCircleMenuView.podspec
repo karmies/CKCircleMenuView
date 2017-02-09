@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author             = { "Christian Klaproth" => "ck@cm-works.de" }
   s.social_media_url   = "http://twitter.com/JaNd3r"
 
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "8.0"
   s.requires_arc = true
 
   s.source       = { :git => "https://github.com/JaNd3r/CKCircleMenuView.git", :tag => "0.3.1" }
